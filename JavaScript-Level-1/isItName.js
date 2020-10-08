@@ -3,12 +3,6 @@
 // is empty string eg. "" or not provided at all or "Ola <name>"
 
 
-// *** YOUR CODE HERE *** //
-  /* declare variables to be used
-     in the program */
-
-
-
   /* define function isItName */
 function isItName(name) {
   let empty = "";
