@@ -4,7 +4,22 @@
 
 
 // *** YOUR CODE HERE *** //
+  /* declare variables to be used
+     in the program */
 
+
+
+  /* define function isItName */
+function isItName(name) {
+  let empty = "";
+  if (name == empty || name == null || name == undefined) {
+     return "Ola Universe";
+  }
+  else (name == greating) {
+    return "Ola " + name;
+  } // end if/else statement
+
+} // end function isItName
 
 
 module.exports = isItName;
