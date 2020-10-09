@@ -4,7 +4,6 @@
 // starting at min and ending with max
 // so generateRange(2, 10, 2) would return [2,4,6,8,10]
 
-// *** YOUR CODE HERE *** //
 function generateRange(min, max, step) {
     // make sure step is not less than 1
   if(step < 1) {

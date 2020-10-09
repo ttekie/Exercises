@@ -4,10 +4,8 @@
 // "Good job <name>, you just finished your first js exercise"
 
 
-// *** YOUR CODE HERE *** //
-
 function sayHello(name) {
-  return "Good job " + name + " you just finished your first js exercise";
+  return "Good job " + name + ", you just finished your first js exercise";
 }
 
 module.exports = sayHello;
