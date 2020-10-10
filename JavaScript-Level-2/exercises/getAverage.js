@@ -11,6 +11,19 @@
 // You will need to round the number down. Do a google search for
 // "round down number javascript"
 
-// ** CODE HERE ** //
+    // declare variable and array to be used
+    // in program
+let calculate = [85.32, 96.24, 90, 78.68, 88.25];
+    // define function getAverage
+function getAverage(getCalculate) {
+  let average = 0;
+  let sum = 0;
+  for(let i = 0; i < getCalculate.length; i++) {
+    sum += getCalculate[i];
+    average = Math.floor(sum / 5);
+  }  // end for-loop
+  return average;
+
+}  // end function getAverage
 
 module.exports = getAverage;

@@ -1,9 +1,10 @@
 // This exercise is from check py.checkio.org
 //
-// You are given an array with positive numbers and a number N. You should find the N-th power of the element in the array with the index N. If N is outside of the array, then return -1. Don't forget that the first element has the index 0.
-//
+// You are given an array with positive numbers and a number N.
+// You should find the N-th power of the element in the array with the index N.
+// If N is outside of the array, then return -1.
+// Don't forget that the first element has the index 0.
 // Let's look at a few examples:
-//
 // array = [1, 2, 3, 4] and N = 2, then the result is 3^2 == 9;
 // array = [1, 2, 3] and N = 3, but N is outside of the array, so the result is -1.
 
@@ -12,6 +13,18 @@
 // you can choose the names of the arguments.
 // Also note that the function will return a number.
 
-// ** CODE HERE ** //
+    // declare the array and variable to be used
+    // in the program
+let arrayName = [2, 5, 7, 4, 3];
+let number = 3;
+    // define function nthPower
+function nthPower(arr, num) {
+  if (arr.length == 5) {
+    return Math.pow(arr[num], num);
+  }
+  else {
+    return -1;
+  }  // end if/else statement
+}  // end function nthPower
 
 module.exports = nthPower;
