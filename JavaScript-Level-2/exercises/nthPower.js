@@ -13,17 +13,13 @@
 // you can choose the names of the arguments.
 // Also note that the function will return a number.
 
-    // declare the array and variable to be used
-    // in the program
-let arrayName = [2, 5, 7, 4, 3];
-let number = 3;
     // define function nthPower
 function nthPower(arr, num) {
-  if (arr.length == 5) {
-    return Math.pow(arr[num], num);
+  if (num >= arr.length) {
+    return -1;
   }
   else {
-    return -1;
+    return Math.pow(arr[num], num);
   }  // end if/else statement
 }  // end function nthPower
 
