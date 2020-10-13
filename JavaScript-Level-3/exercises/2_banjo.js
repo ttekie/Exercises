@@ -11,5 +11,20 @@
 
 
 // ** CODE HERE ** //
+// name of the function --> banjo
+// number of arguments  --> 1
+// argument type        --> string
+// argument name/s      --> name
+// return type          --> string
+
+// define function
+function banjo(name){
+  if(name[0] == "R" || name[0] == "r"){
+    return name + " plays banjo";
+  }
+  else{
+    return name + " does not paly banjo";
+  }  // end if/else statement
+}  // end funtion banjo
 
 module.exports = banjo;

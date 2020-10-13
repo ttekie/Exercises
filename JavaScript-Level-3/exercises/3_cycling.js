@@ -14,5 +14,15 @@
 
 
 // ** CODE HERE ** //
+// name of the function --> cycling
+// number of arguments  --> 1
+// argument type        --> number
+// argument name/s      --> time
+// return type          --> number
+    // define function
+function cycling(time){
+  let litres = 0.5;
+  return Math.floor((time * litres));
+}  // end function cycling
 
 module.exports = cycling;

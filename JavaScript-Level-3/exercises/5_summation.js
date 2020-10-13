@@ -10,5 +10,10 @@
 // 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
 
 // ** CODE HERE ** //
+// name of the function -->
+// number of arguments  -->
+// argument type        -->
+// argument name/s      -->
+// return type  
 
 module.exports = summation;
