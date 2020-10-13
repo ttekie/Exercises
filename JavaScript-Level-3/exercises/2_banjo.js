@@ -23,7 +23,7 @@ function banjo(name){
     return name + " plays banjo";
   }
   else{
-    return name + " does not paly banjo";
+    return name + " does not play banjo";
   }  // end if/else statement
 }  // end funtion banjo
 

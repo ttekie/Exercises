@@ -10,10 +10,19 @@
 // 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
 
 // ** CODE HERE ** //
-// name of the function -->
-// number of arguments  -->
-// argument type        -->
-// argument name/s      -->
-// return type  
+// name of the function --> summation
+// number of arguments  --> 1
+// argument type        --> number
+// argument name/s      --> num
+// return type
+
+    // define function
+function summation(num){
+  let sum = 0;
+  for(let i = 1; i <= num; i++){
+     sum += i;
+  }  // end for-loop
+  return sum;
+}  // end function summation
 
 module.exports = summation;

@@ -14,19 +14,17 @@
 // argument name/s      --> arr
 // return type
     // define function
-let createArr = [1, 2, 3, 4];
 function inverse(arr){
+  let output = [];
   for(let i = 0; i < arr.length; i++){
-    if(arr[i] >= 0){
-
-<<<<<<< HEAD
-    }
-    else{
-
-    }
+     if(arr[i] > 0){
+        output[i] = Math.abs(arr[i]) * -1;
+     }
+     else {
+        output[i] = Math.abs(arr[i]);
+     }
   }  // end for-loop
+  return output;
 }  // end function inverse
-=======
 
->>>>>>> 0a7b2fb9e3a32b9beca60bcb0eb80e3d8f93e802
 module.exports = inverse;
