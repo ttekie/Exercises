@@ -7,12 +7,6 @@
 // You can assume that all values are integers.
 // Do not mutate the input array/list.
 
-// ** CODE HERE ** //
-// name of the function --> inverse
-// number of arguments  --> 1
-// argument type        --> Array
-// argument name/s      --> arr
-// return type
     // define function
 function inverse(arr){
   let output = [];

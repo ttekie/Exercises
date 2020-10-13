@@ -9,13 +9,6 @@
 // summation(8) -> 36
 // 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
 
-// ** CODE HERE ** //
-// name of the function --> summation
-// number of arguments  --> 1
-// argument type        --> number
-// argument name/s      --> num
-// return type
-
     // define function
 function summation(num){
   let sum = 0;

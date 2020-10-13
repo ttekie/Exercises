@@ -11,13 +11,6 @@
 // time = 6.7---> litres = 3
 // time = 11.8--> litres = 5
 
-
-// ** CODE HERE ** //
-// name of the function --> cycling
-// number of arguments  --> 1
-// argument type        --> number
-// argument name/s      --> time
-// return type          --> number
     // define function
 function cycling(time){
   let litres = 0.5;

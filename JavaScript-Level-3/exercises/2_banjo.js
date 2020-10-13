@@ -8,15 +8,6 @@
 // name + " plays banjo"
 // name + " does not play banjo"
 
-
-
-// ** CODE HERE ** //
-// name of the function --> banjo
-// number of arguments  --> 1
-// argument type        --> string
-// argument name/s      --> name
-// return type          --> string
-
 // define function
 function banjo(name){
   if(name[0] == "R" || name[0] == "r"){
